@@ -7,6 +7,7 @@ export const InputContainer = styled.div`
 export const Input = styled.input`
   width: ${({width}) => width};
   padding: 16px;
+  -ms-ime-mode: disabled;
 
   border: none;
   border-radius: 8px;
