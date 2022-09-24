@@ -63,7 +63,7 @@ function SearchBookItem({imageUrl, title}) {
 
             <Mobile>
                 <div style={styles.div}>
-                    <img src={imageUrl} alt={"hi"}/>
+                    <img src={imageUrl} alt={"hi"} width="80rem" height="100rem"/>
                     <p style={styles.mobileTitle}>
                         <div
                             dangerouslySetInnerHTML={{__html: title}}
